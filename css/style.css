@@ -17,10 +17,14 @@ body
 .VW
 {
     width: 80%;
-    margin: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     min-height: 500px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 25px;
+    display: flex;
+    align-items: center;
 }
 
 .VW .Left
@@ -29,7 +33,7 @@ body
     height: 100%;
     margin: 5%;
     float: left;
-    background-color: red;
+    justify-content: center;
 }
 
 .VW .Right
@@ -38,5 +42,8 @@ body
     height: 100%;
     margin: 5%;
     float: left;
-    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: break-word;
 }
